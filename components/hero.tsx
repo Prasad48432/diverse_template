@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ChevronRightIcon } from "lucide-react";
 
-const hero = () => {
+const HeroComponent = () => {
   return (
     <div>
       <div className="container mx-auto px-4 py-24 md:px-6 lg:py-32 2xl:max-w-[1400px]">
@@ -81,4 +81,4 @@ const hero = () => {
   );
 };
 
-export default hero;
+export default HeroComponent;
