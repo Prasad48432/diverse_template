@@ -33,13 +33,13 @@ const HeroComponent = () => {
         {/* End Announcement Banner */}
         {/* Title */}
         <div className="mx-auto mt-5 max-w-2xl text-center">
-          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+          <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-5xl">
             Let&apos;s Build Together
           </h1>
         </div>
         {/* End Title */}
         <div className="mx-auto mt-5 max-w-3xl text-center">
-          <p className="text-muted-foreground text-xl">
+          <p className="text-muted-foreground text-base lg:text-xl">
             Over 10+ fully responsive, UI blocks you can drop into your Shadcn
             UI projects and customize to your heart&apos;s content.
           </p>
