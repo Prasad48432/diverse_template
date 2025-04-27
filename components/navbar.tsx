@@ -14,6 +14,7 @@ import {
   SheetTitle,
 } from "@/components/ui/sheet";
 import { JSX, SVGProps } from "react";
+import { LogIn } from "lucide-react";
 
 export default function Navbar() {
   return (
@@ -33,38 +34,32 @@ export default function Navbar() {
           </Link>
           <Link
             href="#"
-            className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+            className="text-color-primary"
             prefetch={false}
           >
             About
           </Link>
           <Link
             href="#"
-            className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+            className="text-color-primary"
             prefetch={false}
           >
             Services
           </Link>
           <Link
             href="#"
-            className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+            className="text-color-primary"
             prefetch={false}
           >
             Contact
           </Link>
         </nav>
         <div className="flex items-center gap-4">
-          <div className="hidden items-center gap-2 text-sm font-medium md:flex">
-            <PhoneIcon className="h-5 w-5 text-gray-500 dark:text-gray-400" />
-            <span className="text-gray-500 dark:text-gray-400">
-              123-456-7890
-            </span>
-          </div>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button variant="ghost" size="icon" className="rounded-full">
-                <SearchIcon className="h-5 w-5 text-gray-500 dark:text-gray-400" />
-                <span className="sr-only">Search</span>
+              <Button variant="ghost" className="rounded-full">
+                <LogIn className="h-5 w-5 text-gray-500 dark:text-gray-400" />
+                <span className="">Login</span>
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-[300px] p-4">
